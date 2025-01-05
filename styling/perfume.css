@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+#back-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#perfumes {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+#perfumes h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#perfume-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+#perfume-container :nth-child(2) img{
+    height: 28rem;
+}
+
+#perfume-container :nth-child(3) img{
+    height: 28rem;
+}
+
+#perfume-container :nth-child(4) img{
+    height: 28rem;
+}
+
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff6f61;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #b56156;
+}

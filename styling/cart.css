@@ -1,0 +1,41 @@
+.modal {
+    /* position: fixed; */
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#cart-items li {
+    margin: 10px 0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#cart-items img {
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+#total-price {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+}

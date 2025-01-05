@@ -1,0 +1,101 @@
+/* General Modal Styles */
+.modal {
+    display: none; /* Hide by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 1000; /* Ensure it's on top of other elements */
+}
+
+/* Modal Content Container */
+#auth-container {
+    position: relative;
+    width: 400px;
+    margin: 100px auto; /* Center vertically and horizontally */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+/* Disable Scrolling for Modal */
+body.modal-open {
+    overflow: hidden; /* Prevent background scroll when modal is open */
+}
+
+/* Navbar, Carousel, Footer Fix */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block; /* Ensure content flows properly */
+}
+
+/* Auth Tabs */
+.auth-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.auth-tabs button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background: lightgray;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-tabs button.active {
+    background: darkgray;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Close Button */
+#close-modal {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#close-modal:hover {
+    background: darkred;
+}

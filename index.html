@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><BugBerry class="com"></BugBerry></title>
+    <link rel="stylesheet" href="./styling/index.css">
+    <link rel="stylesheet" href="./styling/login.css">
+    <link rel="stylesheet" href="./styling/hero.css">
+    <link rel="stylesheet" href="./styling/footer.css">
+    <link rel="stylesheet" href="./styling/bestNewArrival.css">
+</head>
+
+<body id="index-page">
+    <div id="top-strip">
+        <p>✨ Flat 20% off on all products! Use Code: SAVE20 ✨</p>
+    </div>
+    
+    
+    <div id="main-content">
+        <div id="navbar">
+            <div id="logo">
+                <h1>BugBerry</h1>
+               </div>
+               <div id="search">
+                    <img src="./assets/icons/image.png" alt="">
+                   <input type="text" id="search-bar" placeholder="Search...">
+               </div>
+            
+               <div id="menu">
+                <a href="./perfume.html" id="perfume-link">Perfumes</a>
+                <a href="./bathBody.html">Bath & Body</a>
+                <a href="./skincare.html">Skincare</a>
+                <a href="./bestseller.html">Best Seller</a>
+            </div>
+    
+            <div id="user-actions">
+                <img src="./assets/icons/bugBerry-login-icon.jpg" alt="Account" id="login-button">
+                <img src="./assets/icons/shopping-bag-icon.png" alt="Cart" id="cart-button">
+                          
+             
+    <!-- Login and Signup Modal -->
+    <div id="auth-modal" class="modal">
+        <div id="auth-container">
+            <!-- Tabs for Signup and Login -->
+            <div class="auth-tabs">
+                <button id="signup-tab" class="active">Signup</button>
+                <button id="login-tab">Login</button>
+            </div>
+    
+            <!-- Signup Form -->
+            <form id="signup-form" class="auth-form">
+                <h2>Signup</h2>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-username">Username</label>
+                    <input type="text" id="signup-username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit">Signup</button>
+            </form>
+    
+            <!-- Login Form -->
+            <form id="login-form" class="auth-form" style="display: none;">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+    
+            <!-- Cancel Button -->
+            <button type="button" id="close-modal">Cancel</button>
+            <p id="responseMessage"></p>
+        </div>
+    </div>   
+         </div>
+        </div>   
+
+
+        <section id="hero-banner">
+            <div class="carousel">
+                <img src="./assets/images/The banner highl.png" alt="Offer 1">
+                <img src="./assets/images/The banner2.jpg" alt="Offer 2">
+                <img src="./assets/images/banner3.jpg" alt="Offer 3">
+            </div>
+        </section>
+
+
+        <section id="best-sellers">
+            <h2>Best Sellers</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="./assets/images/categoryPerfume.jpg" alt="EAU DE PARFUM">
+                    <p>EAU DE Perfume</p>
+                    <p>$50.00</p>
+                    <button>Add to Cart</button>
+                </div>
+                
+                 <!-- Product 2 -->
+                 <div class="product">
+                    <img src="./assets/images/category_skincare.jpg" alt="Face MD">
+                    <p>Face MD</p>
+                    <p>$70.00</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+            </div>
+        </section>
+
+
+        <section id="new-arrivals">
+            <h2>New Arrivals</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product">
+                    <img src="./assets/images/lipstick_best seller.webp" alt="lipstick">
+                    <p>lipstick</p>
+                    <p>$25.00</p>
+                    <button>Add to Cart</button>
+                </div>
+    
+                  <!-- Product 2 -->
+                  <div class="product">
+                    <img src="./assets/images/newArrivals.jpg" alt="SMELL Perfume">
+                    <p>SMELL Perfume</p>
+                    <p>$75.00</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section> 
+
+
+           <!-- Footer -->
+           <footer id="footer">
+            <p>&copy; 2024 BugBerry. All rights reserved.</p>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+                <a href="index.html">Back to top</a>
+            </nav>
+        </footer>    
+
+    </div>
+       
+      </body>
+    
+<script src="./script/nav.js"></script>
+<script src="./script/carousel.js"></script>
+<script src="./script/login.js" type="module"></script>
+<script src="./script/bestNewArrival.js" type="module"></script>
+<script src="./script/cart.js" type="module"></script>
+<script src="./script/perfume.js" type="module"></script>
+<script src="./script/bathBody.js" type="module"></script>
+<script src="./script/skinCare.js" type="module"></script>
+<script src="./script/bestSeller.js" type="module"></script>
+</html>
+
+
