@@ -35,6 +35,4 @@ Visual Studio Code for coding.
 Git for version control.
 Glitch for testing API endpoints.
 Screenshots
-
 Below are screenshots showcasing different sections of the BugBerry project, including the homepage, product listing page, and cart functionality:
-
