@@ -1,7 +1,7 @@
-BugBerry Full-Stack Web Project
+##BugBerry Full-Stack Web Project
 A modern full-stack web application developed using HTML, CSS, and JavaScript for the BugBerry e-commerce platform. This project allows users to sign up, log in, browse products, add them to the cart, and interact with a backend server to manage product data.
 
-Table of Contents
+###Table of Contents
 Project Overview
 Features
 Product Sections
@@ -10,7 +10,7 @@ Screenshots
 Project Overview
 BugBerry is a fully functional e-commerce platform inspired by BellaVita. It enables users to explore various product categories and add items to their cart. The project follows a modern and responsive UI design while integrating frontend and backend functionalities for a seamless shopping experience.
 
-Features
+###Features
 Product Listings: Users can browse through different product categories.
 Add to Cart: Users can add products to the cart and view selected items.
 User Authentication: Secure login and signup functionality.
