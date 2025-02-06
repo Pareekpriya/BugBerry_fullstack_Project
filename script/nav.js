@@ -19,3 +19,9 @@ function changePlaceholder(){
 setInterval(changePlaceholder,1000);
 
 
+document.getElementById("menu-dropdown").addEventListener("change", function() {
+    let selectedValue = this.value;
+    if (selectedValue) {
+        window.location.href = selectedValue; 
+    }
+});
