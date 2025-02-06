@@ -23,7 +23,7 @@ async function loadProducts(sectionId, apiUrl) {
 }
 
 // Load Best Sellers
-loadProducts('best-sellers', `${baseUrl}/Best Sellers`);
+loadProducts('best-sellers', `${baseUrl}/bestSeller`);
 
 // Load New Arrivals
-loadProducts('new-arrivals', `${baseUrl}/New Arrivals`);
+loadProducts('new-arrivals', `${baseUrl}/newArrival`);
