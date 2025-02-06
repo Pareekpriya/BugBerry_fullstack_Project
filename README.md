@@ -6,7 +6,6 @@ Project Overview
 Features
 Product Sections
 Technologies Used
-Screenshots
 
 ### Project Overview
 BugBerry is a fully functional e-commerce platform inspired by BellaVita. It enables users to explore various product categories and add items to their cart. The project follows a modern and responsive UI design while integrating frontend and backend functionalities for a seamless shopping experience.
@@ -50,4 +49,5 @@ Visual Studio Code for coding.
 Git for version control.
 Glitch for testing API endpoints.
 
-
+## Link of the Project 
+https://pareekpriya.github.io/BugBerry_fulstack_Project/index.html
