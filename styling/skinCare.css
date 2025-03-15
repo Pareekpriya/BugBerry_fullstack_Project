@@ -19,7 +19,6 @@ header {
 
 #skinCare {
     text-align: center;
-    margin: 20px 30px;
 }
 
 #skinCare h2 {
@@ -32,6 +31,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 40px;
     padding: 20px;
+    justify-items: center;
     max-width: 1200px;
     margin: auto;
 }
