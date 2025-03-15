@@ -36,6 +36,7 @@
     width: 100%;
     flex-wrap: wrap; 
     position: relative;
+    
 }
 
 #search {
@@ -98,28 +99,17 @@
 
 
 @media (max-width: 768px) {
-    /* Navbar Layout */
+
     #navbar {
         display: flex;
         flex-direction: column; 
         align-items: center;
         justify-content: center;
         width: 100%;
-        padding: 5px;
+        padding: 8px;
     }
 
-    
-    .navbar-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        /* padding: 5px 15px; */
-    }
-
-    #logo {
-        text-align: left;
-    }
+      
 
     #user-actions {
         display: flex;
@@ -128,7 +118,7 @@
         margin-top: 8px;
     }
 
-    /* Second Row: Full-width Search Bar */
+    
     #search {
         width: 50%;
         display: flex;
@@ -141,22 +131,18 @@
         width: 90%;
         padding: 8px;
         font-size: 16px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
     }
 
-    /* Third Row: Menu Links in One Row, Centered */
     #menu {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
         gap: 5px;
-        margin-top: 10px;
+        margin-top: 8px;
     }
 
     #menu a {
-        padding: 2px;
         font-size: 1rem;
         text-decoration: none;
         color: black;
@@ -164,9 +150,8 @@
 }
 
 @media screen and (max-width: 430px) {
-    /* Adjustments for smaller screens */
     #search {
-        width: 60%;
+        width: 70%;
     }
 
     #search-bar {
@@ -174,7 +159,6 @@
     }
 
     #menu a {
-        padding: 2px;
         font-size: 0.9rem;
     }
 }

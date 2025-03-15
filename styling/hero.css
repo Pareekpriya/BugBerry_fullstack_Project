@@ -1,25 +1,49 @@
-
-#hero-banner .carousel {
-    height: 80vh;
-    display: block;
+#hero-banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    padding: 10px; 
+    box-sizing: border-box;
+ }
 
+#hero-banner .carousel {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
 #hero-banner .carousel img {
-    height: 100%;
     width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
     object-fit: cover;
 }
 
-@media (max-width:678px) {
-    #hero-banner{
-        height: 80vh;
+/* Responsive Adjustments */
+@media (max-width: 678px) {
+    #hero-banner {
+        height: 75vh; 
+        padding: 10px;
     }
+    
+};
+
+/* @media (max-width: 440px) {
+    #hero-banner {
+        height: 75vh; 
+        padding: 10px;
+    };
 
     #hero-banner .carousel{
         height: 100%;
     }
-}
+    
+} */
