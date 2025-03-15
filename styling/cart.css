@@ -39,3 +39,24 @@
     margin-top: 10px;
     text-align: right;
 }
+
+#cart-container a{
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(31, 31, 31);
+    color: #fbfbfb;
+    border-radius: 5px;
+}
+
+#cart-container button{
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(31, 31, 31);
+    color: #fbfbfb;
+    border-radius: 5px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}

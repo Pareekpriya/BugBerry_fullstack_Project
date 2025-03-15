@@ -19,7 +19,7 @@ header {
 
 #bathBody {
     text-align: center;
-    margin: 50px 20px;
+    margin: 20px 30px;
 }
 
 #bathBody h2 {
@@ -30,21 +30,11 @@ header {
 #bathBody-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    gap: 40px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
 }
-
-#bathBody-container :nth-child(1) img{
-    height: 28rem;
-} 
-
-#bathBody-container :nth-child(2) img{
-    height: 28rem;
-}
-
-#bathBody-container :nth-child(3) img{
-    height: 28rem;
-} 
 
 
 .product {
@@ -54,11 +44,13 @@ header {
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .product img {
     width: 100%;
-    height: auto;
+    height: 220px;
     border-radius: 5px;
 }
 
@@ -79,4 +71,10 @@ button {
 
 button:hover {
     background-color: #b56156;
+}
+
+@media (max-width:768px) {
+    #bathBody-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
