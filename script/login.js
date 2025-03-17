@@ -31,13 +31,13 @@ loginTab.addEventListener("click", () => {
 // Show modal
 loginButton.addEventListener("click", () => {
     authModal.style.display = "block";
-    document.body.classList.add("modal-open"); // Disable scrolling
+    document.body.classList.add("modal-open"); 
 });
 
 // Hide modal
 closeModal.addEventListener("click", () => {
     authModal.style.display = "none";
-    document.body.classList.remove("modal-open"); // Enable scrolling
+    document.body.classList.remove("modal-open"); 
     clearFields();
 });
 
@@ -76,8 +76,8 @@ signupForm.addEventListener("submit", async (event) => {
             responseMessage.textContent = "Signup successful! Please log in.";
             responseMessage.style.color = "green";
             setTimeout(() => {
-                loginTab.click(); // Switch to Login tab
-            }, 1500); // Delay for user feedback
+                loginTab.click(); 
+            }, 1500); 
         } else {
             responseMessage.textContent = data.message || "Signup failed!";
             responseMessage.style.color = "red";
@@ -118,10 +118,10 @@ loginForm.addEventListener("submit", async (event) => {
             responseMessage.textContent = "Login successful!";
             responseMessage.style.color = "green";
             setTimeout(() => {
-                authModal.style.display = "none"; // Close modal
-                document.body.classList.remove("modal-open"); // Enable scrolling
+                authModal.style.display = "none"; 
+                document.body.classList.remove("modal-open"); 
                 clearFields();
-            }, 1500); // Delay for user feedback
+            }, 1500); 
         } else {
             responseMessage.textContent = data.message || "Login failed!";
             responseMessage.style.color = "red";
